@@ -11,6 +11,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Navigation */
 nav{
     min-height: 8vh;
@@ -73,6 +83,17 @@ nav{
 
 .burger-menu.toggle .line3{
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Footer */
+.footer{
+    margin-top: auto;
+    min-height: 8vh;
+    background-color: var(--primary-color);
+    color: var(--font-primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 @media (max-width:1024px){
